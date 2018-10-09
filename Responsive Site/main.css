@@ -205,11 +205,20 @@ h1, h2{
 }
 .splash3{
     height: 550px;
+    width: 100%;
 }
 .intro3{
     height: 550px;
+    /* padding: 10px; */
+    width: 100%;
 }
-
+footer{
+    margin-top: 50px;
+    height: 25px;
+    text-align: center;
+    background-color: rgb(116, 116, 116);
+    /* width: 300px; */
+}
 @media only screen and (max-width: 1300px){
     #services{
         margin-top: 50px;
@@ -273,6 +282,9 @@ h1, h2{
     }
     .intro{
         height: 300px;
+    }
+    .splash3, .intro3{
+        height: 600px;
     }
     /* nav li{
         display: none;
